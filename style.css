@@ -1,96 +1,26 @@
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: #f4f4f4;
+h1 {
+text-align: center;
 }
 
-.navbar {
-  background: #0021A5;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
+nav:hover {
+  background-color: red;
 }
+/*why wont this work!*/
 
-.navbar nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.navbar nav a:hover {
-  color: #fb00ff;
-}
-
-.hero {
-  height: 300px;
-  background: url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2") center/cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255, 123, 0);
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.page-title {
-  text-align: center;
-  padding: 20px;
-}
-
-.container {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.grid img {
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
+  height: 40px;
+  background-color: #333; 
+  color: rgb(0, 0, 0);
 }
+/*im gay*/
 
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #0021A5;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .navbar {
-    flex-direction: column;
-  }
+#peyton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
